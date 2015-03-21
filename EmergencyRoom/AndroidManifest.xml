@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="g0220.emergencyroom"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:permission="android.permission.ACCESS_CHECKIN_PROPERTIES"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name=".AddPatient"
+            android:label="@string/title_activity_add_patient" >
+        </activity>
+        <activity
+            android:name=".HealthCardActivity"
+            android:label="@string/title_activity_health_card" >
+        </activity>
+        <activity
+            android:name=".VitalUpdate"
+            android:label="@string/title_activity_vital_update" >
+        </activity>
+        <activity
+            android:name=".HCRecords"
+            android:label="@string/title_activity_hcrecords" >
+        </activity>
+        <activity
+            android:name=".VitalsUpdateSuccess"
+            android:label="@string/title_activity_vitals_update_success" >
+        </activity>
+        <activity
+            android:name=".CheckedIn"
+            android:label="@string/title_activity_checked_in" >
+        </activity>
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".WritePrescriptionActivity"
+            android:label="@string/title_activity_write_prescription" >
+        </activity>
+        <activity
+            android:name=".SeenDoctorActivity"
+            android:label="@string/title_activity_seen_doctor" >
+        </activity>
+        <activity
+            android:name=".SortPatientsActivity"
+            android:label="@string/title_activity_sort_patients" >
+        </activity>
+    </application>
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="unit tests"
+        android:targetPackage="g0220.emergencyroom" />
+
+</manifest>
