@@ -16,6 +16,15 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+/**
+ * 
+ * This is the main log-in page for the application. The activity checks the users ID and password
+ * against the text-file of users and their passwords.
+ * 
+ * @author Monica Leonte, Meeral Qureshi, Owen Sawyer, Jordan Martel
+ *
+ */
+
 public class MainActivity extends Activity {
 	public static boolean isNurse = false;
 

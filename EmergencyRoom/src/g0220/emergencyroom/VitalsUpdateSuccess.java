@@ -6,6 +6,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+/**
+ * 
+ * Activity showing that the patient's vital signs have been successfully updated.
+ * 
+ * @author Monica Leonte, Meeral Qureshi, Owen Sawyer, Jordan Martel
+ *
+ */
+
 public class VitalsUpdateSuccess extends Search {
 
 	@Override

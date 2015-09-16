@@ -49,3 +49,11 @@ CONFIGURATION
 -------------
 This app has no configurable features. If at any time, a screen without a button is present, the 
 android back button is to be used to return to the previous screen. 
+
+
+AUTHORS
+-------
+Meeral Qureshi
+Owen Sawyer
+Monica Leonte
+Jordan Martel

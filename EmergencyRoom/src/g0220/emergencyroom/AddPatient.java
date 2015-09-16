@@ -15,6 +15,15 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+/**
+ * 
+ * This activity allows the user to add a patient to the database based on their
+ * health card number, name and date of birth.
+ * 
+ * @author Monica Leonte, Meeral Qureshi, Owen Sawyer, Jordan Martel
+ *
+ */
+
 public class AddPatient extends Search {
 
 	@Override

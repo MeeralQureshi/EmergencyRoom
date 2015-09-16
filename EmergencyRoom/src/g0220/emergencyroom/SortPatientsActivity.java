@@ -13,6 +13,14 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 
+/**
+ * 
+ * This activity displays a sorted list of patients currently checked into the ER by decreasing urgency.
+ * 
+ * @author Monica Leonte, Meeral Qureshi, Owen Sawyer, Jordan Martel
+ *
+ */
+
 public class SortPatientsActivity extends Search {
 
 	/**

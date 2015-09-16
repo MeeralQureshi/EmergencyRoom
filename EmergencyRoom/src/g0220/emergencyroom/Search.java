@@ -18,6 +18,15 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+/**
+ * 
+ * The Search class acts as a home-page for the user. It allows them to add a patient,
+ * search for a patient, and sort patients.
+ * 
+ * @author Monica Leonte, Meeral Qureshi, Owen Sawyer, Jordan Martel
+ *
+ */
+
 public class Search extends Activity {
 	
 	private Patient_Manager nurses;

@@ -17,6 +17,15 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+/**
+ * 
+ * Allows the user to update the vital signs of a selected patient through their health card.
+ * This activity also calculates the patient's urgency based on their vital signs and age.
+ * 
+ * @author Monica Leonte, Meeral Qureshi, Owen Sawyer, Jordan Martel
+ *
+ */
+
 public class VitalUpdate extends Search {
 
 	private Integer HealthCardNumber;

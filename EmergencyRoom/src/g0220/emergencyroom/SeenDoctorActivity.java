@@ -19,6 +19,16 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+/**
+ * 
+ * The SeenDoctor activity allows the user to enter when the patient has been seen
+ * by accessing their health card. They are then checked out of the ER and removed from
+ * the urgency sort.
+ * 
+ * @author Monica Leonte, Meeral Qureshi, Owen Sawyer, Jordan Martel
+ *
+ */
+
 public class SeenDoctorActivity extends Search {
 
 	private Integer hcn;
